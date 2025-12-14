@@ -1,0 +1,34 @@
+{
+  "name": "@agawrysiuk/jwt-validator",
+  "version": "1.0.0",
+  "description": "JWT validator for Keycloak authentication using JWKS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "jwt",
+    "keycloak",
+    "authentication",
+    "jwks",
+    "validator"
+  ],
+  "author": "Arkadiusz Gawrysiuk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agawrysiuk/jwt-validator-nodejs.git"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "jwks-rsa": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.9.3"
+  }
+}
