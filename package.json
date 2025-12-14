@@ -6,7 +6,6 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "postinstall": "tsc",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
