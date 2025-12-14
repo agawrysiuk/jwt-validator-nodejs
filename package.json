@@ -4,6 +4,12 @@
   "description": "JWT validator for Keycloak authentication using JWKS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
